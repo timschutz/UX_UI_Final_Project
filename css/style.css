@@ -30,8 +30,29 @@ h3{
 /* ***SECTION*** */
 
 .main{
-    width: 1440px;
+    width: 411px;
+    height: 731px;
     margin: auto;
-    width: 70%;
     background-color:#F3F3F3;
+}
+
+/* ***HEADER*** */
+
+.header{
+    height: 76px;
+    background-color:#c2c2c2;
+}
+
+/* ***CONTENT*** */
+.content{
+    height: 579px;
+}
+
+/* ***FOOTER*** */
+
+.footer{     
+    /* position: sticky; 
+    bottom: 0; */
+    height: 76px;
+    background-color:#c2c2c2;
 }
