@@ -1,8 +1,54 @@
-.header{
-    margin:10%;
-    margin-left: 44%;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#202020;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color:#000;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color:#202020;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color:#000;
 }
 
+/* ***SECTION*** */
+
+.main{
+    width: 411px;
+    height: 690px;
+    margin: auto;
+    background-color:#EDEDED;
+}
+
+/* ***HEADER*** */
+
+.header{
+    height: 64px;
+    background-color:#c2c2c2;
+}
+
+/* ***CONTENT*** */
+
+.content{
+    height: 593px;
+}
 .calender
 {
     display:flex;
@@ -10,12 +56,10 @@
     justify-content: center;
     align-items: center;
 
-    background-color: whitesmoke;
-    border: black 1px solid;
-    width:fit-content;
+    background-color: white;
+   
+    width:300px;
 margin:10%;
-margin-left: 47%;
-margin-top:5%;
 }
 
 .month{
@@ -41,13 +85,15 @@ margin-top:5%;
 .date-grid button {
     position: relative;
    border: none;
-    width: 4.5ch;
-    height: 4.5ch;
+    width: 6.5ch;
+    height: 6.5ch;
     border-radius: 50%;
     background-color: transparent;
     
   }
   .footer{
-    margin:10%;
-    margin-left: 44%;
-  }
+    height: 73px;
+    display: flex;
+    max-width: 100%;
+    background-color:#67BDF4;
+}
