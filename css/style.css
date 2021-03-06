@@ -74,57 +74,20 @@ h3{
     padding-right: 10px;
     display: inline;
 }
-.blood{
-    height: 300px;
-    border-radius: 10px;
-    margin: 20px;
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    background-color:#fff;
-}
-.title{
-    padding-bottom: 20px;
-    font-weight: 100;
-    color: #2C67BA;
-}
-.time_left{
-    font-weight: 300;
-    width: 50%;
-    text-align: center;
-    float: left;
-}
-.time_right{
-    font-weight: 300;
-    width: 50%;
-    text-align: center;
-    float: right;
-}
-.time_left h1{
-    line-height: 0px;
-}
-.time_right h1{
-    line-height: 0px;
-}
-.box{
-    margin: 20px 20px 0px 20px;
-    padding: 10px 0px 10px 0px;
-    border-radius: 10px;
-    background-color:#F2F2F2;
-    border: 1px solid #b7b7b7;
-}
-.hideme{
-    color: #f2f2f2;
-}
 .notification{
     position: fixed;
-    top: 590px;
-    left: calc(100% - 800px);
+    left: 100px;
 }
 
 /* ***FOOTER*** */
 
 .footer{
-    position: fixed;
     height: 73px;
-    background-color:#c2c2c2;
+    display: flex;
+}
+.ft_left{
+    /* float: left; */
+}
+.ft_right{
+    /* float: right; */
 }
