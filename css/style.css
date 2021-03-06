@@ -76,12 +76,14 @@ h3{
 }
 .notification{
     position: fixed;
+    left: 100px;
 }
 
 /* ***FOOTER*** */
 
-.footer{
-    height: 73px;
-    margin-bottom: 20px;
-    background-color:#c2c2c2;
+.ft_left{
+    float: left;
+}
+.ft_right{
+    float: right;
 }
