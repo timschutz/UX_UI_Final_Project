@@ -10,21 +10,21 @@ p{
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 42px;
+    font-size: 24px;
     font-weight: 700;
-    color:#202020;
+    color:#000;
 }
 h2{
     font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 32px;
     color:#202020;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    font-weight: 700;
-    color:#202020;
+    font-weight: 400;
+    color:#000;
 }
 
 /* ***SECTION*** */
@@ -33,26 +33,48 @@ h3{
     width: 411px;
     height: 731px;
     margin: auto;
-    background-color:#F3F3F3;
+    background-color:#EDEDED;
 }
 
 /* ***HEADER*** */
 
 .header{
-    height: 76px;
+    height: 64px;
     background-color:#c2c2c2;
 }
 
 /* ***CONTENT*** */
+
 .content{
-    height: 579px;
+    height: 593px;
+}
+.greeting{
+    height: 75px;
+    margin: 20px;
+    padding-top: 0px;
+    text-align: center;
+    background-color:#67BDF4;
+}
+.day h1{
+    margin-bottom: 5px;
+}
+.day img{
+    padding-top: 5px;
+}
+.day{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color:#4994EC;
+}
+.day_parts{
+    color:#fff;
+    font-weight: 400;
+    display: inline;
 }
 
 /* ***FOOTER*** */
 
-.footer{     
-    /* position: sticky; 
-    bottom: 0; */
-    height: 76px;
+.footer{
+    height: 73px;
     background-color:#c2c2c2;
 }
