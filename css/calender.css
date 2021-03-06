@@ -1,0 +1,43 @@
+
+.calender
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: whitesmoke;
+    border: black 1px solid;
+    width:fit-content;
+
+}
+
+.month{
+    text-align: center;
+    font-weight: bold;
+}
+.days-of-week{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.day{
+    text-align: center;
+}
+.date-grid{
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+}
+
+.date-grid button:first-child{
+    grid-column: 2;
+    
+}
+.date-grid button {
+    position: relative;
+   border: none;
+    width: 4.5ch;
+    height: 4.5ch;
+    border-radius: 50%;
+    background-color: transparent;
+    
+  }
