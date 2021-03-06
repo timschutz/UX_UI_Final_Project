@@ -81,9 +81,13 @@ h3{
 
 /* ***FOOTER*** */
 
+.footer{
+    height: 73px;
+    display: flex;
+}
 .ft_left{
-    float: left;
+    /* float: left; */
 }
 .ft_right{
-    float: right;
+    /* float: right; */
 }
